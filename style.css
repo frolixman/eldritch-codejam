@@ -1,0 +1,79 @@
+html{
+    overflow: hidden;
+}
+.page {
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../eldritch-codejam/assets/background_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    /* width: 100vw; */
+    padding: 30px;
+}
+
+.ancient-container {
+    display: flex;
+    background-image: url('/eldritch-codejam/assets/Ancients/Cthulthu.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid;
+    border-color: #542707;
+    border-radius: 15px;
+
+    box-sizing: border-box;
+    height: 340px;
+    width: 260px;
+
+}
+
+.difficulty-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(150, 60, 24);
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: #542707;
+    height: 5%;
+    width: 15%;
+
+    margin-top: 15%;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #542707;
+}
+
+.deck-container {
+    display: flex;
+    
+    box-sizing: border-box;
+    
+}
+
+.top-card {
+    display: flex;
+    background-image: url('/eldritch-codejam/assets/MythicCards/green/green13.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: #542707;
+
+    box-sizing: border-box;
+    height: 350px;
+    width: 240px;
+}
+
+.temp-card {
+    background-image: url('/eldritch-codejam/assets/MythicCards/blue/blue1.png');
+    
+}
+
