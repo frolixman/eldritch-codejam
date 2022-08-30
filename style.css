@@ -60,7 +60,7 @@ html{
 
 .top-card {
     display: flex;
-    background-image: url('/eldritch-codejam/assets/MythicCards/green/green13.png');
+    background-image: url('/eldritch-codejam/assets/mythicCardBackground.png');
     background-repeat: no-repeat;
     background-size: contain;
     border: 2px solid;
