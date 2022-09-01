@@ -1,5 +1,5 @@
 html{
-    overflow: hidden;
+    overflow-y: hidden;
 }
 .page {
     display: flex;
@@ -32,8 +32,8 @@ html{
     border-radius: 15px;
 
     box-sizing: border-box;
-    height: 340px;
-    width: 260px;
+    height: 260px;
+    width: 200px;
     
     cursor: pointer;
 
@@ -72,7 +72,7 @@ html{
     border: 2px solid;
     border-radius: 15px;
     border-color: #542707;
-    padding: 10px 50px 10px 50px;
+    padding: 10px 30px 10px 30px;
 
     margin-top: 10%;
     margin-left: 5%;
@@ -87,7 +87,9 @@ html{
 
 .deck-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     box-sizing: border-box;
     width: 33%;
     
@@ -103,14 +105,33 @@ html{
     border-color: #542707;
 
     box-sizing: border-box;
-    height: 350px;
-    width: 240px;
+    height: 270px;
+    width: 185px;
 
     cursor: pointer;
 }
 
-.temp-card {
-    background-image: url('/eldritch-codejam/assets/MythicCards/blue/blue1.png');
+.newgame-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(150, 60, 24);
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: #542707;
+    padding: 5px 10px 5px 10px;
+
+    margin-top: 5%;
     
+    width: 185px;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #542707;
+
+    cursor: pointer;
 }
 

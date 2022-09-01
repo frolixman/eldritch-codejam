@@ -81,6 +81,7 @@ function collect_deck_with_selected_ancient() {
         document.getElementById('top-card').style.backgroundImage = imageUrl;
         console.log(imageUrl)
         } else {
+            // document.getElementById('top-card').style.backgroundImage = 'url("/eldritch-codejam/assets/mythicCardBackground.png")';
             alert('В колоде больше нет карт')
         }
         
@@ -89,3 +90,8 @@ function collect_deck_with_selected_ancient() {
     
     console.log(selectedAncient);
 }
+
+const newGame = document.querySelector('.newgame-button');
+newGame.addEventListener('click', () => {
+    location.reload();
+})
