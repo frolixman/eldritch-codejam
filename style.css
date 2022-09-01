@@ -17,31 +17,65 @@ html{
 
 .ancient-container {
     display: flex;
-    background-image: url('/eldritch-codejam/assets/Ancients/Cthulthu.png');
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 33%;
+
+}
+
+.ancient-card {
+    display: flex;
     background-repeat: no-repeat;
     background-size: contain;
-    border: 2px solid;
-    border-color: #542707;
     border-radius: 15px;
 
     box-sizing: border-box;
     height: 340px;
     width: 260px;
+    
+    cursor: pointer;
 
+}
+
+.ancient-card-active {
+    border: 2px solid;
+    border-color: #964003;
+}
+
+.cthulhu {
+    background-image: url('/eldritch-codejam/assets/Ancients/Cthulthu.png');
+}
+.azathoth {
+    background-image: url('/eldritch-codejam/assets/Ancients/Azathoth.png');
+}
+.iogSothoth {
+    background-image: url('/eldritch-codejam/assets/Ancients/IogSothoth.png');
+}
+.shubNiggurath {
+    background-image: url('/eldritch-codejam/assets/Ancients/ShubNiggurath.png');
 }
 
 .difficulty-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 10%;
+    
+    cursor: pointer;
+   
+}
+
+.difficulty {
     background-color: rgb(150, 60, 24);
     border: 2px solid;
     border-radius: 15px;
     border-color: #542707;
-    height: 5%;
-    width: 15%;
+    padding: 10px 50px 10px 50px;
 
-    margin-top: 15%;
+    margin-top: 10%;
+    margin-left: 5%;
 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: normal;
@@ -53,8 +87,9 @@ html{
 
 .deck-container {
     display: flex;
-    
+    justify-content: center;
     box-sizing: border-box;
+    width: 33%;
     
 }
 
@@ -70,6 +105,8 @@ html{
     box-sizing: border-box;
     height: 350px;
     width: 240px;
+
+    cursor: pointer;
 }
 
 .temp-card {
